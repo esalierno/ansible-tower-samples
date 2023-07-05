@@ -4,4 +4,36 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-
+    - name: Step 2
+      ansible.builtin.pause:
+        seconds: 10
+    - name: Step 3
+      ansible.builtin.pause:
+        seconds: 10
+    - name: Step 4
+      ansible.builtin.pause:
+        seconds: 10
+    - name: Step 5
+      ansible.builtin.pause:
+        seconds: 10
+    - name: Step 6
+      ansible.builtin.pause:
+        seconds: 10
+    - name: Step 7
+      ansible.builtin.pause:
+        seconds: 10
+    - name: Step 8
+      ansible.builtin.pause:
+        seconds: 10
+    - name: Step 9
+      ansible.builtin.pause:
+        seconds: 10
+    - name: Step 10
+      ansible.builtin.pause:
+        seconds: 10
+    - name: Step 11
+      ansible.builtin.pause:
+        seconds: 10
+    - name: Step 12
+      ansible.builtin.pause:
+        seconds: 10        
